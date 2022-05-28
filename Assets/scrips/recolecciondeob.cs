@@ -10,7 +10,7 @@ public class recolecciondeob : MonoBehaviour
     public float reydistasia;
     void Start()
     {
-        camera = transform.Find("Camera");
+        camera = transform.Find("Camara");
     }
     public void Update()
     {
