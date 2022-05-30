@@ -4,14 +4,18 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public GameObject Objpuntos1;
-    public int puntosQueDa;
-    private void OnTriggerEnter(Collider other)
+    public NumCAm puntos;
+    
+    private void Start()
     {
-        if(other.tag == "BulletP")
+        puntos = GameObject.Find("Camara").GetComponent < NumCAm>();
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("BulletP") )
         {
-            Objpuntos1.GetComponent<Puntos>().puntos += puntosQueDa;
-            Destroy(gameObject);
+            puntos.suma= puntos.suma + 1 ;
+            
         }
     }
 }
