@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - cubo1
   - cubo2
+  - cubierta
   layers:
   - Default
   - TransparentFX

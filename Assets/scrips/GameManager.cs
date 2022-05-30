@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 {
 
     public Text AmmoText;
+  
 
     public static GameManager Instance { get; private set; }
 

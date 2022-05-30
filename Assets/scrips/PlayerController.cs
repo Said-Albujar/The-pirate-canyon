@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     public int vidas_max;
     public int vidas_standard;
     public Text Health_text;
+  
 
     Vector3 moveInput = Vector3.zero;
     CharacterController characterController;
@@ -80,5 +81,7 @@ public class PlayerController : MonoBehaviour
             vidas = vidas_standard;
         }
     }
+
+
 }
 
