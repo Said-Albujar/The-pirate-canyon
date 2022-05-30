@@ -6,6 +6,8 @@ TagManager:
   tags:
   - BulletP
   - Enemy
+  - cubo1
+  - cubo2
   layers:
   - Default
   - TransparentFX
