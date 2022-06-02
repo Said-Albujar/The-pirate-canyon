@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -157,8 +157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -69.482056, y: -18.078003}
-  m_SizeDelta: {x: 138.97, y: 36.156}
+  m_AnchoredPosition: {x: -69.482056, y: -28.828}
+  m_SizeDelta: {x: 138.97, y: 57.656}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &31578849
 MonoBehaviour:
@@ -753,7 +753,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh16964
+  m_Name: pb_Mesh16962
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1237,8 +1237,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -69.478, y: -54.75598}
-  m_SizeDelta: {x: 138.96, y: 37.199}
+  m_AnchoredPosition: {x: -69.49, y: -82.68}
+  m_SizeDelta: {x: 138.96, y: 50.048}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &181885095
 MonoBehaviour:
@@ -1872,7 +1872,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh16920
+  m_Name: pb_Mesh16918
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2534,6 +2534,7 @@ GameObject:
   - component: {fileID: 395941698}
   - component: {fileID: 395941697}
   - component: {fileID: 395941696}
+  - component: {fileID: 395941695}
   m_Layer: 0
   m_Name: EnemyA (1)
   m_TagString: Enemy
@@ -2555,6 +2556,18 @@ Transform:
   m_Father: {fileID: 1747534498}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &395941695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395941693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91acca33c32ae5e44a4a091b51ed9d36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!54 &395941696
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3146,7 +3159,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh16716
+  m_Name: pb_Mesh16714
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4940,7 +4953,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh16984
+  m_Name: pb_Mesh16982
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5118,6 +5131,7 @@ GameObject:
   - component: {fileID: 634023933}
   - component: {fileID: 634023935}
   - component: {fileID: 634023934}
+  - component: {fileID: 634023936}
   m_Layer: 0
   m_Name: perso
   m_TagString: Player
@@ -5200,7 +5214,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 634023923}
   m_LocalRotation: {x: -0, y: 0.99996096, z: -0, w: -0.008840635}
-  m_LocalPosition: {x: -105.342, y: -1.98, z: -91.69}
+  m_LocalPosition: {x: -105.342, y: 9.95, z: -91.69}
   m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_Children:
   - {fileID: 963194228}
@@ -5323,6 +5337,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objdestru: {fileID: 0}
   objUi: {fileID: 31578847}
+--- !u!114 &634023936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634023923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da9bb3b9c0907f042b067e60d7c71a9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cajam: {fileID: 925693358}
+  objUi: {fileID: 395941693}
 --- !u!1001 &697097328
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28935,7 +28963,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh17036
+  m_Name: pb_Mesh17034
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -29475,6 +29503,7 @@ GameObject:
   - component: {fileID: 925693361}
   - component: {fileID: 925693360}
   - component: {fileID: 925693359}
+  - component: {fileID: 925693363}
   m_Layer: 0
   m_Name: Muro barco
   m_TagString: Untagged
@@ -29558,6 +29587,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 9.92, y: 0, z: 0}
+--- !u!114 &925693363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925693358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91acca33c32ae5e44a4a091b51ed9d36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &928392290 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 310097995334645423, guid: 71e5b854b9f484747b1ee630fd4e2691, type: 3}
@@ -30274,7 +30315,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh16762
+  m_Name: pb_Mesh16760
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -32262,7 +32303,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh16950
+  m_Name: pb_Mesh16948
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -33339,8 +33380,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -204.75, y: -54.75598}
-  m_SizeDelta: {x: 131.56, y: 37.199}
+  m_AnchoredPosition: {x: -219.52, y: -82.68}
+  m_SizeDelta: {x: 161.12, y: 50.048}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1656292722
 MonoBehaviour:
@@ -36155,8 +36196,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -204.74, y: -18.078}
-  m_SizeDelta: {x: 131.57, y: 36.157}
+  m_AnchoredPosition: {x: -218.83, y: -28.828}
+  m_SizeDelta: {x: 159.72, y: 57.6569}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2078903234
 MonoBehaviour:
