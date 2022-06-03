@@ -22,6 +22,11 @@ public class NumCAm : MonoBehaviour
         {
             enemigos = 1;
         }
+        if (suma == 6)
+        {
+            enemigos = 2;
+        }
+
     }
 
 }

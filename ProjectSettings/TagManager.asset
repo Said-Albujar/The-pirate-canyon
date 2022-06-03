@@ -9,6 +9,7 @@ TagManager:
   - cubo1
   - cubo2
   - cubierta
+  - Fin
   layers:
   - Default
   - TransparentFX
