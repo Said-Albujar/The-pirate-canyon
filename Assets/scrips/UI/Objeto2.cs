@@ -16,4 +16,5 @@ public class Objeto2 : MonoBehaviour
             objeto2--;
         gameObject.SetActive (false);
     }
+   
 }
