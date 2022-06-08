@@ -24,14 +24,14 @@ public class PauseMenu2 : MonoBehaviour
     }
     public void Pausa()
     {
-       
         {
         Time.timeScale = 0f;
         botonPausa.SetActive(true);
         menuPausa.SetActive(true);
             GameIsPaused = true;
+            Cursor.visible = true;
+
         }
-            
     }
     public void Reanudar()
     {
@@ -39,5 +39,7 @@ public class PauseMenu2 : MonoBehaviour
         botonPausa.SetActive(false);
         menuPausa.SetActive(false);
         GameIsPaused = false;
+        Cursor.visible = false;
+
     }
 }

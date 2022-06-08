@@ -6,14 +6,12 @@ public class camaraper : MonoBehaviour
 {
     private new Transform camera;
     public Vector2 sensibilidad;
-    // Start is called before the first frame update
     void Start()
     {
         camera = transform.Find("Camara");
-        Cursor.visible = false;
+       Cursor.visible = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
         float hor = Input.GetAxis("Mouse X");
@@ -21,7 +19,7 @@ public class camaraper : MonoBehaviour
         if (hor != 0 && Time.timeScale != 0f)
         {
             transform.Rotate(Vector3.up * hor*sensibilidad.x);
-            Cursor.visible = false;
+           Cursor.visible = false;
         }
         if (ver !=0 && Time.timeScale != 0f)
         {
