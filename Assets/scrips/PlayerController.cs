@@ -82,7 +82,14 @@ public class PlayerController : MonoBehaviour
             vidas = vidas_standard;
         }
     }
-    
+    private void OnTriggerEnter(Collider coll)
+    {
+        if (coll.CompareTag("arma"))
+        {
+            changelife(-1);
+        }
+    }
+
 
 }
 
