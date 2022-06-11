@@ -1,18 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-public class conteoobj1 : MonoBehaviour
+
+public class Reparacion : MonoBehaviour
 {
     public bool Dentro;
     Renderer rend;
-    public GameObject objUi;
-    
-    void Start()
+    public static bool tomada = false;
+    void Start()    
     {
-        objUi = GameObject.Find("objeto1");
         rend = GetComponent<Renderer>();
     }
+
     void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
@@ -20,6 +19,7 @@ public class conteoobj1 : MonoBehaviour
             Dentro = true;
         }
     }
+
     void OnTriggerExit(Collider other)
     {
         if (other.tag == "Player")
@@ -27,14 +27,12 @@ public class conteoobj1 : MonoBehaviour
             Dentro = false;
         }
     }
+
     void Update()
     {
-        
-        objUi.GetComponent<Text>().text = Objeto1.objeto1.ToString();
-        if (Objeto1.objeto1 == 0)
+        if (Dentro && Input.GetKeyDown(KeyCode.E) && tomada)
         {
-            Reparacion.tomada = true; 
-            objUi.GetComponent<Text>().text = "completo";
+            
             rend.enabled = false;
         }
     }
