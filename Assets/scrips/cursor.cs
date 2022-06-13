@@ -8,13 +8,13 @@ namespace Chapter1
     {
         private bool iscursorbloqueado;
 
-        // Start is called before the first frame update
+       
         void Start()
         {
             ToggleCursorState();
         }
 
-        // Update is called once per frame
+         
         void Update()
         {
             CheckForInput();
@@ -26,23 +26,23 @@ namespace Chapter1
         }
         void CheckForInput()
         {
-            if (Input.GetKeyDown(KeyCode.Escape))
-            {
-                ToggleCursorState();
-            }
+           if (Input.GetKeyDown(KeyCode.Escape))
+          {
+               ToggleCursorState();
+           }
         }
         void Checkofcursorshouldbelocked()
         {
-            if(iscursorbloqueado)
-            {
-                Cursor.lockState = CursorLockMode.Locked;
+           if(iscursorbloqueado)
+           {
+           //  Cursor.lockState = CursorLockMode.Locked;
                 Cursor.visible = false;
             }
             else
             {
-                Cursor.lockState = CursorLockMode.Locked;
+             //   Cursor.lockState = CursorLockMode.Locked;
                 Cursor.visible = true;
-            }
+          }
         }
     }
 }

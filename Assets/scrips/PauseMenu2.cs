@@ -30,7 +30,6 @@ public class PauseMenu2 : MonoBehaviour
         menuPausa.SetActive(true);
             GameIsPaused = true;
             Cursor.visible = true;
-
         }
     }
     public void Reanudar()
@@ -40,6 +39,5 @@ public class PauseMenu2 : MonoBehaviour
         menuPausa.SetActive(false);
         GameIsPaused = false;
         Cursor.visible = false;
-
     }
 }
