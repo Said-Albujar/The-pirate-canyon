@@ -10,10 +10,6 @@ TagManager:
   - cubo2
   - cubierta
   - Fin
-  - Roto1
-  - Roto2
-  - Roto3
-  - Roto4
   layers:
   - Default
   - TransparentFX

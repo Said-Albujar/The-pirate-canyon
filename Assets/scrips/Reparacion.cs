@@ -6,11 +6,7 @@ public class Reparacion : MonoBehaviour
 {
     public bool Dentro;
     Renderer rend;
-    public static bool tomada1 = false;
-    public static bool tomada2 = false;
-    public static bool tomada3 = false;
-    public static bool tomada4 = false;
-
+    public static bool tomada = false;
     void Start()    
     {
         rend = GetComponent<Renderer>();
@@ -34,31 +30,10 @@ public class Reparacion : MonoBehaviour
 
     void Update()
     {
-        if (Dentro && Input.GetKeyDown(KeyCode.E) && tomada1 && CompareTag("Roto1"))
+        if (Dentro && Input.GetKeyDown(KeyCode.E) && tomada)
         {
             
             rend.enabled = false;
         }
-
-        if (Dentro && Input.GetKeyDown(KeyCode.E) && tomada2 && CompareTag("Roto2"))
-        {
-
-            rend.enabled = false;
-        }
-
-        if (Dentro && Input.GetKeyDown(KeyCode.E) && tomada3 && CompareTag("Roto3"))
-        {
-
-            rend.enabled = false;
-        }
-
-        if (Dentro && Input.GetKeyDown(KeyCode.E) && tomada4 && CompareTag("Roto4"))
-        {
-
-            rend.enabled = false;
-        }
-
-
-
     }
 }
