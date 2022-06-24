@@ -33,7 +33,7 @@ public class conteoobj1 : MonoBehaviour
         objUi.GetComponent<Text>().text = Objeto1.objeto1.ToString();
         if (Objeto1.objeto1 == 0)
         {
-            Reparacion.tomada = true; 
+            Reparacion.tomada1 = true; 
             objUi.GetComponent<Text>().text = "completo";
             rend.enabled = false;
         }

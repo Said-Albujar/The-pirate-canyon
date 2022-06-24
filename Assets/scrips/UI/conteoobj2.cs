@@ -4,20 +4,39 @@ using UnityEngine;
 using UnityEngine.UI;
 public class conteoobj2 : MonoBehaviour
 {
-    public GameObject objdestru;
+    public bool Dentro;
+    Renderer rend;
     public GameObject objUi;
-    // Start is called before the first frame update
+    
+
     void Start()
     {
         objUi = GameObject.Find("objeto2");
+        rend = GetComponent<Renderer>();
     }
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            Dentro = true;
+        }
+    }
+    void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            Dentro = false;
+        }
+    }
+
     void Update()
     {
         objUi.GetComponent<Text>().text = Objeto2.objeto2.ToString();
         if (Objeto2.objeto2 == 0)
         {
-            Destroy(objdestru);
+            Reparacion.tomada2 = true;
             objUi.GetComponent<Text>().text = "completo";
+            rend.enabled = false;
         }
     }
 }
