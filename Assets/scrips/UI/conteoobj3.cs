@@ -2,15 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public class conteoobj1 : MonoBehaviour
+
+public class conteoobj3 : MonoBehaviour
 {
     public bool Dentro;
     Renderer rend;
     public GameObject objUi;
-    
+
     void Start()
     {
-        objUi = GameObject.Find("objeto1");
+        objUi = GameObject.Find("objeto3");
         rend = GetComponent<Renderer>();
     }
     void OnTriggerEnter(Collider other)
@@ -27,13 +28,13 @@ public class conteoobj1 : MonoBehaviour
             Dentro = false;
         }
     }
+
     void Update()
     {
-        
-        objUi.GetComponent<Text>().text = Objeto1.objeto1.ToString();
-        if (Objeto1.objeto1 == 0)
+        objUi.GetComponent<Text>().text = Objeto3.objeto3.ToString();
+        if (Objeto3.objeto3 == 0)
         {
-            Reparacion.tomada1 = true; 
+            Reparacion.tomada3 = true;
             objUi.GetComponent<Text>().text = "completo";
             rend.enabled = false;
         }
