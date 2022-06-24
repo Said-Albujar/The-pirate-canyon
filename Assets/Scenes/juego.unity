@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -132,7 +132,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 78db410872e16aa48b41855348e43d0e, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
 <<<<<<< Updated upstream
       value: 12
 =======
@@ -142,9 +141,6 @@ PrefabInstance:
       value: 12
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-      value: 10
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 78db410872e16aa48b41855348e43d0e, type: 3}
       propertyPath: m_LocalScale.x
@@ -904,7 +900,6 @@ Transform:
   - {fileID: 1956680679}
   - {fileID: 1379785531}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_RootOrder: 39
 =======
@@ -914,9 +909,6 @@ Transform:
   m_RootOrder: 39
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-  m_RootOrder: 37
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &105234127 stripped
 Transform:
@@ -1255,7 +1247,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: b9fb76d9c68ff5f4e9a8e2446f0cb09b, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
 <<<<<<< Updated upstream
       value: 5
 =======
@@ -1265,9 +1256,6 @@ PrefabInstance:
       value: 5
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-      value: 3
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b9fb76d9c68ff5f4e9a8e2446f0cb09b, type: 3}
       propertyPath: m_LocalScale.x
@@ -1603,14 +1591,10 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_Name: pb_Mesh17094
 =======
   m_Name: pb_Mesh17114
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
-=======
-  m_Name: pb_Mesh17118
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2578,7 +2562,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 5.35, z: 12.39}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_RootOrder: 21
 =======
@@ -2588,9 +2571,6 @@ RectTransform:
   m_RootOrder: 21
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-  m_RootOrder: 19
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2609,6 +2589,67 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8826871572238ea409f39fa0080edbaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &417260670
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8b96b476d05e2b844a2cfa17a8e1e1d7, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b96b476d05e2b844a2cfa17a8e1e1d7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.991079
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b96b476d05e2b844a2cfa17a8e1e1d7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.7534695
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b96b476d05e2b844a2cfa17a8e1e1d7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -40.87629
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b96b476d05e2b844a2cfa17a8e1e1d7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b96b476d05e2b844a2cfa17a8e1e1d7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b96b476d05e2b844a2cfa17a8e1e1d7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b96b476d05e2b844a2cfa17a8e1e1d7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b96b476d05e2b844a2cfa17a8e1e1d7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b96b476d05e2b844a2cfa17a8e1e1d7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b96b476d05e2b844a2cfa17a8e1e1d7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8b96b476d05e2b844a2cfa17a8e1e1d7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3cfbef7ee18cb5f4ca420c0203d3b310, type: 2}
+    - target: {fileID: 919132149155446097, guid: 8b96b476d05e2b844a2cfa17a8e1e1d7, type: 3}
+      propertyPath: m_Name
+      value: Barril (Modelo)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8b96b476d05e2b844a2cfa17a8e1e1d7, type: 3}
 --- !u!1 &441547070
 GameObject:
   m_ObjectHideFlags: 0
@@ -3254,7 +3295,6 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_Name: pb_Mesh16764
 =======
@@ -3264,9 +3304,6 @@ Mesh:
   m_Name: pb_Mesh16764
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-  m_Name: pb_Mesh16768
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4089,7 +4126,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh17062
+  m_Name: pb_Mesh17064
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4618,7 +4655,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_RootOrder: 31
 =======
@@ -4628,9 +4664,6 @@ Transform:
   m_RootOrder: 31
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-  m_RootOrder: 29
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &587224293
 GameObject:
@@ -4726,7 +4759,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_RootOrder: 23
 =======
@@ -4736,9 +4768,6 @@ Transform:
   m_RootOrder: 23
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-  m_RootOrder: 21
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &587224298
 MonoBehaviour:
@@ -4853,7 +4882,6 @@ RectTransform:
   - {fileID: 182129163}
   - {fileID: 441547071}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_RootOrder: 28
 =======
@@ -4863,9 +4891,6 @@ RectTransform:
   m_RootOrder: 28
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-  m_RootOrder: 26
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4980,7 +5005,7 @@ Transform:
   - {fileID: 1393015002}
   - {fileID: 2013095567}
   m_Father: {fileID: 0}
-  m_RootOrder: 39
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 --- !u!1 &634023923
@@ -5090,7 +5115,6 @@ Transform:
   m_Children:
   - {fileID: 963194228}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_RootOrder: 22
 =======
@@ -5100,9 +5124,6 @@ Transform:
   m_RootOrder: 22
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-  m_RootOrder: 20
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &634023928
 MonoBehaviour:
@@ -5452,7 +5473,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 2907c36add4778340b1f3b0b8efe7f1a, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2907c36add4778340b1f3b0b8efe7f1a, type: 3}
       propertyPath: m_LocalScale.x
@@ -5716,7 +5737,6 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_Name: pb_Mesh16802
 =======
@@ -5726,9 +5746,6 @@ Mesh:
   m_Name: pb_Mesh16802
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-  m_Name: pb_Mesh16806
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6030,7 +6047,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 4df749945ae84984090683a1c4e749ef, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
 <<<<<<< Updated upstream
       value: 7
 =======
@@ -6040,9 +6056,6 @@ PrefabInstance:
       value: 7
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-      value: 5
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4df749945ae84984090683a1c4e749ef, type: 3}
       propertyPath: m_LocalScale.x
@@ -9935,7 +9948,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_RootOrder: 34
 =======
@@ -9945,9 +9957,6 @@ Transform:
   m_RootOrder: 34
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-  m_RootOrder: 32
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &793516308 stripped
 GameObject:
@@ -9973,7 +9982,6 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_Name: pb_Mesh16828
 =======
@@ -9983,9 +9991,6 @@ Mesh:
   m_Name: pb_Mesh16828
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-  m_Name: pb_Mesh16832
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10152,7 +10157,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: d51088406b255a246a5515938f5d6149, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
 <<<<<<< Updated upstream
       value: 8
 =======
@@ -10162,9 +10166,6 @@ PrefabInstance:
       value: 8
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-      value: 6
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d51088406b255a246a5515938f5d6149, type: 3}
       propertyPath: m_LocalScale.x
@@ -10233,7 +10234,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: b441b7f3a90baec40ac5c635148e868e, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
 <<<<<<< Updated upstream
       value: 43
 =======
@@ -10243,9 +10243,6 @@ PrefabInstance:
       value: 43
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-      value: 41
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b441b7f3a90baec40ac5c635148e868e, type: 3}
       propertyPath: m_LocalScale.x
@@ -10931,7 +10928,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_RootOrder: 33
 =======
@@ -10941,9 +10937,6 @@ Transform:
   m_RootOrder: 33
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-  m_RootOrder: 31
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &905487202 stripped
 Transform:
@@ -30262,7 +30255,6 @@ Transform:
   - {fileID: 998672591}
   - {fileID: 558694763}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_RootOrder: 25
 =======
@@ -30272,9 +30264,6 @@ Transform:
   m_RootOrder: 25
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-  m_RootOrder: 23
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &925693358
 GameObject:
@@ -30369,7 +30358,6 @@ Transform:
   m_LocalScale: {x: 2.7739732, y: 7.152643, z: 6.1279283}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 <<<<<<< HEAD
@@ -30378,9 +30366,6 @@ Transform:
 =======
 >>>>>>> Stashed changes
   m_RootOrder: 37
-=======
-  m_RootOrder: 35
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
   m_LocalEulerAnglesHint: {x: 9.92, y: 0, z: 0}
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 --- !u!1 &928392290 stripped
@@ -30407,7 +30392,6 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_Name: pb_Mesh17362
 =======
@@ -30417,9 +30401,6 @@ Mesh:
   m_Name: pb_Mesh17362
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-  m_Name: pb_Mesh17378
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -31122,7 +31103,6 @@ Transform:
   m_LocalScale: {x: 37.967594, y: 1.07, z: 26.20609}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_RootOrder: 32
 =======
@@ -31132,9 +31112,6 @@ Transform:
   m_RootOrder: 32
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-  m_RootOrder: 30
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1011634971
 PrefabInstance:
@@ -31249,7 +31226,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 40
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 --- !u!4 &1045814985 stripped
@@ -31378,7 +31355,6 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_Name: pb_Mesh17630
 =======
@@ -31388,9 +31364,6 @@ Mesh:
   m_Name: pb_Mesh17630
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-  m_Name: pb_Mesh17652
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -31797,7 +31770,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh17422
+  m_Name: pb_Mesh17412
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -32146,7 +32119,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 4ce89887d75cf834cad068f556dc17cd, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4ce89887d75cf834cad068f556dc17cd, type: 3}
       propertyPath: m_LocalScale.x
@@ -32506,7 +32479,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 <<<<<<< HEAD
@@ -32517,10 +32489,68 @@ PrefabInstance:
 =======
 >>>>>>> Stashed changes
   m_RootOrder: 38
-=======
-  m_RootOrder: 36
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1273542400
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8b96b476d05e2b844a2cfa17a8e1e1d7, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b96b476d05e2b844a2cfa17a8e1e1d7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -15.173061
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b96b476d05e2b844a2cfa17a8e1e1d7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.7534695
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b96b476d05e2b844a2cfa17a8e1e1d7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -36.17508
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b96b476d05e2b844a2cfa17a8e1e1d7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b96b476d05e2b844a2cfa17a8e1e1d7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b96b476d05e2b844a2cfa17a8e1e1d7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b96b476d05e2b844a2cfa17a8e1e1d7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b96b476d05e2b844a2cfa17a8e1e1d7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b96b476d05e2b844a2cfa17a8e1e1d7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b96b476d05e2b844a2cfa17a8e1e1d7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8b96b476d05e2b844a2cfa17a8e1e1d7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8defb928d495854439be76c2469bd1a0, type: 2}
+    - target: {fileID: 919132149155446097, guid: 8b96b476d05e2b844a2cfa17a8e1e1d7, type: 3}
+      propertyPath: m_Name
+      value: Barril (Modelo) (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8b96b476d05e2b844a2cfa17a8e1e1d7, type: 3}
 --- !u!1 &1289301073 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2907c36add4778340b1f3b0b8efe7f1a, type: 3}
@@ -32649,7 +32679,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: b9fb76d9c68ff5f4e9a8e2446f0cb09b, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
 <<<<<<< Updated upstream
       value: 10
 =======
@@ -32659,9 +32688,6 @@ PrefabInstance:
       value: 10
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-      value: 8
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b9fb76d9c68ff5f4e9a8e2446f0cb09b, type: 3}
       propertyPath: m_LocalScale.x
@@ -33014,7 +33040,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 1f4a49db7c36c1a4b856c54ba32a4cf3, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
 <<<<<<< Updated upstream
       value: 13
 =======
@@ -33024,9 +33049,6 @@ PrefabInstance:
       value: 13
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-      value: 11
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1f4a49db7c36c1a4b856c54ba32a4cf3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -33585,7 +33607,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 136a37e4dc532ea49851bc62799cd998, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
 <<<<<<< Updated upstream
       value: 6
 =======
@@ -33595,9 +33616,6 @@ PrefabInstance:
       value: 6
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-      value: 4
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 136a37e4dc532ea49851bc62799cd998, type: 3}
       propertyPath: m_LocalScale.x
@@ -33667,7 +33685,6 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_Name: pb_Mesh16850
 =======
@@ -33677,9 +33694,6 @@ Mesh:
   m_Name: pb_Mesh16850
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-  m_Name: pb_Mesh16854
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -33996,7 +34010,6 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_Name: pb_Mesh17040
 =======
@@ -34006,9 +34019,6 @@ Mesh:
   m_Name: pb_Mesh17040
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-  m_Name: pb_Mesh17036
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -34354,7 +34364,6 @@ Transform:
   - {fileID: 2088919577}
   - {fileID: 1325912919}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_RootOrder: 40
 =======
@@ -34364,9 +34373,6 @@ Transform:
   m_RootOrder: 40
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-  m_RootOrder: 38
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1589344150 stripped
 Transform:
@@ -34774,7 +34780,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: b441b7f3a90baec40ac5c635148e868e, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
 <<<<<<< Updated upstream
       value: 4
 =======
@@ -34784,9 +34789,6 @@ PrefabInstance:
       value: 4
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-      value: 2
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b441b7f3a90baec40ac5c635148e868e, type: 3}
       propertyPath: m_LocalScale.x
@@ -34855,7 +34857,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 0e0f83f068de731468fb663ea77f60c3, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
 <<<<<<< Updated upstream
       value: 16
 =======
@@ -34865,9 +34866,6 @@ PrefabInstance:
       value: 16
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-      value: 14
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0e0f83f068de731468fb663ea77f60c3, type: 3}
       propertyPath: m_LocalScale.x
@@ -35351,7 +35349,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_RootOrder: 35
 =======
@@ -35361,9 +35358,6 @@ Transform:
   m_RootOrder: 35
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-  m_RootOrder: 33
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1693972106
 PrefabInstance:
@@ -35374,7 +35368,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 06a8df9863a32f043b991bed0cdbcc6e, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
 <<<<<<< Updated upstream
       value: 14
 =======
@@ -35384,9 +35377,6 @@ PrefabInstance:
       value: 14
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-      value: 12
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 06a8df9863a32f043b991bed0cdbcc6e, type: 3}
       propertyPath: m_LocalScale.x
@@ -35459,7 +35449,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 5497302f07003654cbc1265f458b9942, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
 <<<<<<< Updated upstream
       value: 44
 =======
@@ -35469,9 +35458,6 @@ PrefabInstance:
       value: 44
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-      value: 42
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5497302f07003654cbc1265f458b9942, type: 3}
       propertyPath: m_LocalScale.x
@@ -35926,7 +35912,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_RootOrder: 29
 =======
@@ -35936,9 +35921,6 @@ Transform:
   m_RootOrder: 29
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-  m_RootOrder: 27
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1747534496
 GameObject:
@@ -35989,7 +35971,6 @@ Transform:
   m_Children:
   - {fileID: 154686859}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_RootOrder: 30
 =======
@@ -35999,9 +35980,6 @@ Transform:
   m_RootOrder: 30
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-  m_RootOrder: 28
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1750522825
 PrefabInstance:
@@ -36135,23 +36113,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71e5b854b9f484747b1ee630fd4e2691, type: 3}
-<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 <<<<<<< HEAD
-=======
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
 --- !u!43 &1765260200
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
   m_Name: pb_Mesh17440
-=======
-  m_Name: pb_Mesh17478
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -36309,7 +36280,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
-<<<<<<< HEAD
 --- !u!1 &1768130911 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 06a8df9863a32f043b991bed0cdbcc6e, type: 3}
@@ -36332,8 +36302,6 @@ MeshCollider:
 =======
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
 --- !u!1 &1796875377 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 310097995334645423, guid: 71e5b854b9f484747b1ee630fd4e2691, type: 3}
@@ -36465,7 +36433,7 @@ MeshCollider:
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1765260200}
+  m_Mesh: {fileID: 2055499457}
 --- !u!33 &1807716908
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -36473,7 +36441,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1807716906}
-  m_Mesh: {fileID: 1765260200}
+  m_Mesh: {fileID: 2055499457}
 --- !u!23 &1807716909
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -36726,7 +36694,7 @@ MonoBehaviour:
     m_AreaError: 15
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
-  m_Mesh: {fileID: 1765260200}
+  m_Mesh: {fileID: 2055499457}
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -36786,7 +36754,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_RootOrder: 17
 =======
@@ -36796,9 +36763,6 @@ Transform:
   m_RootOrder: 17
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-  m_RootOrder: 15
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1842121670
 GameObject:
@@ -36947,7 +36911,6 @@ Transform:
   - {fileID: 1656332773}
   - {fileID: 876297876}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_RootOrder: 26
 =======
@@ -36957,9 +36920,6 @@ Transform:
   m_RootOrder: 26
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-  m_RootOrder: 24
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1852243856
 PrefabInstance:
@@ -37204,7 +37164,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 136a37e4dc532ea49851bc62799cd998, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
 <<<<<<< Updated upstream
       value: 11
 =======
@@ -37214,9 +37173,6 @@ PrefabInstance:
       value: 11
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-      value: 9
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 136a37e4dc532ea49851bc62799cd998, type: 3}
       propertyPath: m_LocalScale.x
@@ -37554,7 +37510,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_RootOrder: 24
 =======
@@ -37564,9 +37519,6 @@ Transform:
   m_RootOrder: 24
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-  m_RootOrder: 22
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1972447180
 MonoBehaviour:
@@ -37633,7 +37585,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: bed5ad9b63de5934db7a770b4f035343, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
 <<<<<<< Updated upstream
       value: 9
 =======
@@ -37643,9 +37594,6 @@ PrefabInstance:
       value: 9
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-      value: 7
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bed5ad9b63de5934db7a770b4f035343, type: 3}
       propertyPath: m_LocalScale.x
@@ -37718,7 +37666,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 7d5f445b386f2324c83487f524e18e75, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
 <<<<<<< Updated upstream
       value: 15
 =======
@@ -37728,9 +37675,6 @@ PrefabInstance:
       value: 15
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-      value: 13
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7d5f445b386f2324c83487f524e18e75, type: 3}
       propertyPath: m_LocalScale.x
@@ -38024,7 +37968,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh17606
+  m_Name: pb_Mesh17586
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -38327,6 +38271,170 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2052328056}
   m_CullTransparentMesh: 1
+--- !u!43 &2055499457
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pb_Mesh17460
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 36
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 24
+    localAABB:
+      m_Center: {x: 1.5, y: 1.5, z: -3}
+      m_Extent: {x: 1.5, y: 1.5, z: 3}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 24
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1152
+    _typelessdata: 00000000000000000000000000000000000000000000803f000080bf0000000000000000000080bf000000000000000000004040000000000000000000000000000000000000803f000080bf0000000000000000000080bf000040c00000000000000000000040400000000000000000000000000000803f000080bf0000000000000000000080bf000000000000404000004040000040400000000000000000000000000000803f000080bf0000000000000000000080bf000040c0000040400000404000000000000000000000803f000000000000000000000000000000000000803f000080bf000000000000000000004040000000000000c0c00000803f000000000000000000000000000000000000803f000080bf0000c0c0000000000000404000004040000000000000803f000000000000000000000000000000000000803f000080bf000000000000404000004040000040400000c0c00000803f000000000000000000000000000000000000803f000080bf0000c0c00000404000004040000000000000c0c00000000000000000000080bf0000803f0000000000000000000080bf000040400000000000000000000000000000c0c00000000000000000000080bf0000803f0000000000000000000080bf000000000000000000004040000040400000c0c00000000000000000000080bf0000803f0000000000000000000080bf000040400000404000000000000040400000c0c00000000000000000000080bf0000803f0000000000000000000080bf000000000000404000000000000000000000c0c0000080bf00000000000000000000000000000000000080bf000080bf0000c04000000000000000000000000000000000000080bf00000000000000000000000000000000000080bf000080bf000000000000000000000000000040400000c0c0000080bf00000000000000000000000000000000000080bf000080bf0000c04000004040000000000000404000000000000080bf00000000000000000000000000000000000080bf000080bf0000000000004040000000000000404000000000000000000000803f000000000000803f0000000000000000000080bf0000000000000000000040400000404000000000000000000000803f000000000000803f0000000000000000000080bf000040400000000000000000000040400000c0c0000000000000803f000000000000803f0000000000000000000080bf000000000000c0c000004040000040400000c0c0000000000000803f000000000000803f0000000000000000000080bf000040400000c0c000000000000000000000c0c000000000000080bf00000000000080bf0000000000000000000080bf000000000000c0c000004040000000000000c0c000000000000080bf00000000000080bf0000000000000000000080bf000040c00000c0c000000000000000000000000000000000000080bf00000000000080bf0000000000000000000080bf000000000000000000004040000000000000000000000000000080bf00000000000080bf0000000000000000000080bf000040c000000000
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 1.5, y: 1.5, z: -3}
+    m_Extent: {x: 1.5, y: 1.5, z: 3}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1001 &2062942319
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38336,7 +38444,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 5497302f07003654cbc1265f458b9942, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
 <<<<<<< Updated upstream
       value: 3
 =======
@@ -38346,9 +38453,6 @@ PrefabInstance:
       value: 3
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-      value: 1
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5497302f07003654cbc1265f458b9942, type: 3}
       propertyPath: m_LocalScale.x
@@ -38457,7 +38561,6 @@ Transform:
   - {fileID: 641483265}
   - {fileID: 908489079}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_RootOrder: 36
 =======
@@ -38467,9 +38570,6 @@ Transform:
   m_RootOrder: 36
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-  m_RootOrder: 34
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2073826003
 GameObject:
@@ -38839,7 +38939,6 @@ Transform:
   - {fileID: 1019210453}
   - {fileID: 1428121350}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_RootOrder: 27
 =======
@@ -38849,9 +38948,6 @@ Transform:
   m_RootOrder: 27
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-  m_RootOrder: 25
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2078903232
 GameObject:
@@ -39047,7 +39143,6 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_Name: pb_Mesh16674
 =======
@@ -39057,9 +39152,6 @@ Mesh:
   m_Name: pb_Mesh16674
 >>>>>>> 91b9e1ef9aa54e5c06c5b169a4b4428f953a55e7
 >>>>>>> Stashed changes
-=======
-  m_Name: pb_Mesh16680
->>>>>>> parent of 91b9e1e (Luis Rojas Se agrego el barril)
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -39626,7 +39718,7 @@ Transform:
   m_Children:
   - {fileID: 4404721464095662947}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &3041746407235356954
 GameObject:
