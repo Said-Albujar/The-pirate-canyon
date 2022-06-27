@@ -24,7 +24,6 @@ public class recolecciondeob : MonoBehaviour
                 hit.transform.GetComponent<interactuablee>().Interact();
 
             }
-
         }
     }
 }

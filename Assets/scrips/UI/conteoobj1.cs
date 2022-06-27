@@ -13,20 +13,7 @@ public class conteoobj1 : MonoBehaviour
         objUi = GameObject.Find("objeto1");
         rend = GetComponent<Renderer>();
     }
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.tag == "Player")
-        {
-            Dentro = true;
-        }
-    }
-    void OnTriggerExit(Collider other)
-    {
-        if (other.tag == "Player")
-        {
-            Dentro = false;
-        }
-    }
+ 
     void Update()
     {
         
