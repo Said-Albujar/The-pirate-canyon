@@ -28,7 +28,7 @@ public class ObjectRepaired : MonoBehaviour
             
             
                 rend.enabled = false;
-                
+            rep.b = 0;
             
         }
         
@@ -38,6 +38,15 @@ public class ObjectRepaired : MonoBehaviour
         if (player.gameObject.tag == "Player")
         {
             entro();
+            if(player.gameObject.tag=="Player")
+            {
+                rep.GetComponent<Repair>();
+                if(rep.a==rep.b)
+                {
+                    yes = true;
+                    
+                }
+            }
 
         }
     }
@@ -65,13 +74,6 @@ public class ObjectRepaired : MonoBehaviour
             Dentro = false;
         }
     }
- public void comparacion()
-    {
-        if(rep.a==rep.b )
-        {
-            yes = true;
-        }
-    }
-    
+
 
 }

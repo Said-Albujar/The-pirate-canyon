@@ -4,12 +4,10 @@ using UnityEngine;
 
 public class Objects : MonoBehaviour
 {
-    public Repair rep;
-    public int numero;
-   
+  
+
     public Renderer rend;
     BoxCollider coll;
-    public bool confirmation;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,9 +24,7 @@ public class Objects : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
-        {
-            
-            
+        {  
             rend.enabled = false;
             coll.enabled = false;
         }

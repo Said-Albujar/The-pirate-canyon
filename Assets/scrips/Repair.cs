@@ -4,43 +4,27 @@ using UnityEngine;
 
 public class Repair : MonoBehaviour
 {
-
-
-    
-    public Objects confirmation;
-    
-    public ObjectRepaired NumO;
     public int a=0;
-    public int b=0;
-    // Start is called before the first frame update
-     
-        void Start()
-        {
-        
-
-
-    }
-    
-
-    // Update is called once per frame
-   
-    private void Update()
-    {
-        
-    }
-
-    
+    public int b=0; 
     void OnTriggerEnter(Collider other)
     {
-
-
         if (other.tag == "key")
         {
-            NumO.yes=true;
+            a = 1;
+        }
+        if(other.tag== "Broke")
+        {
+            b = 1;
         }
 
     }
-    
-   
+    void OnTriggerExit(Collider player)
+    {
+        if (player.gameObject.tag == "Broke")
+        {
+            b = 0;
+        }
+    }
+
 
 }
