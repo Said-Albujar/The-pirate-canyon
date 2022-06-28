@@ -30,6 +30,7 @@ public class PauseMenu2 : MonoBehaviour
         menuPausa.SetActive(true);
             GameIsPaused = true;
             Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.Confined;
         }
     }
     public void Reanudar()
