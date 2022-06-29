@@ -9,6 +9,8 @@ public class RangoEnemigo : MonoBehaviour
 
    private void OnTriggerEnter(Collider coll)
     {
+        animacion.SetBool("ataque", true);
+
         if (coll.CompareTag("Player"))
         {
 
@@ -16,7 +18,7 @@ public class RangoEnemigo : MonoBehaviour
             {
             animacion.SetBool("caminar", false);
             animacion.SetBool("correr", false);
-            animacion.SetBool("ataque", true);
+            
             }
         }
     }
