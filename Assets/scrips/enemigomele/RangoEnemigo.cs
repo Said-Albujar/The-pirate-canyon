@@ -11,11 +11,12 @@ public class RangoEnemigo : MonoBehaviour
     {
         if (coll.CompareTag("Player"))
         {
-            if(!enemigo)
+
+            if (!enemigo)
             {
-                animacion.SetBool("caminar", false);
-                animacion.SetBool("correr", false);
-                animacion.SetBool("ataque", false);
+            animacion.SetBool("caminar", false);
+            animacion.SetBool("correr", false);
+            animacion.SetBool("ataque", true);
             }
         }
     }

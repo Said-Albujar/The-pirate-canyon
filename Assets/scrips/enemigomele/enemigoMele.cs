@@ -28,7 +28,7 @@ public class enemigoMele : MonoBehaviour
             cronometro += 1 * Time.deltaTime;
             if (cronometro >= 4)
             {
-                rutina = Random.Range(0,5);
+                rutina = Random.Range(0,2);
                 cronometro = 0;
             }
             switch (rutina)
@@ -57,16 +57,15 @@ public class enemigoMele : MonoBehaviour
             {
                 transform.rotation = Quaternion.RotateTowards(transform.rotation, rotation, 2);
                 animacion.SetBool("caminar", false);
-
                 animacion.SetBool("correr", true);
                 transform.Translate(Vector3.forward * 2 * Time.deltaTime);
-
                 animacion.SetBool("ataque", false);
+
             }
             else
             {
-                if (!atacando)
                 {
+
                     transform.rotation = Quaternion.RotateTowards(transform.rotation, rotation, 2);
                     animacion.SetBool("caminar", false);
                     animacion.SetBool("correr", false);
@@ -75,11 +74,14 @@ public class enemigoMele : MonoBehaviour
 
         }
     }
+
     public void finalanimacion()
     {
         animacion.SetBool("ataque", false);
         atacando = false;
         enemi.GetComponent<CapsuleCollider>().enabled = true;
+        animacion.SetBool("ataque", true);
+
     }
     void Update()
     {
