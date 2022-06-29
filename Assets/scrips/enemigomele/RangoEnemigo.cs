@@ -7,9 +7,9 @@ public class RangoEnemigo : MonoBehaviour
     public Animator animacion;
     public enemigoMele enemigo;
 
-    void OnTriggerEnter(Collider coll)
+   private void OnTriggerEnter(Collider coll)
     {
-        if (coll.CompareTag("perso"))
+        if (coll.CompareTag("Player"))
         {
             if(!enemigo)
             {

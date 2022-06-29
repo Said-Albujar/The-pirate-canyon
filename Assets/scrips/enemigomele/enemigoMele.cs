@@ -28,7 +28,7 @@ public class enemigoMele : MonoBehaviour
             cronometro += 1 * Time.deltaTime;
             if (cronometro >= 4)
             {
-                rutina = Random.Range(0, 2);
+                rutina = Random.Range(0,5);
                 cronometro = 0;
             }
             switch (rutina)
