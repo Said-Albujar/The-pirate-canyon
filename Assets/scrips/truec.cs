@@ -15,5 +15,7 @@ public class truec : MonoBehaviour
     void Update()
     {
         Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.Confined;
+
     }
 }
