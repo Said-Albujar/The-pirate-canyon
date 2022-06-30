@@ -11,10 +11,7 @@ public class PlayerController : MonoBehaviour
     public float runSpeed = 10f;
     public float jumpHeight = 1.9f;
     public float gravityScale = -20f;
-    public int vidas;
-    public int vidas_max;
-    public int vidas_standard;
-    public Text Health_text;
+   
     
   
 
@@ -46,7 +43,6 @@ public class PlayerController : MonoBehaviour
             {
                 moveInput = transform.TransformDirection(moveInput) * walkSpeed;
             }
-
             if (Input.GetButtonDown("Jump"))
             {
                 moveInput.y = Mathf.Sqrt(jumpHeight * -2f * gravityScale);
@@ -57,39 +53,6 @@ public class PlayerController : MonoBehaviour
         characterController.Move(moveInput * Time.deltaTime);
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Enemy"))
-        {
-            changelife(-1);
-        }
-    }  
-    public void changelife(int value)
-    {
-        vidas += value;
-        if (Health_text)
-        {
-            Health_text.text = "Vidas:  " + vidas;
-        }
-        if (vidas <= 0)
-        {
-            Destroy(gameObject);
-            SceneManager.LoadScene("Derrota");
-        }
-
-        if (vidas >= vidas_max)
-        {
-            vidas = vidas_standard;
-        }
-    }
-  //  private void OnTriggerEnter(Collider coll)
- //   {
-     //   if (coll.CompareTag("arma"))
-     //   {
-     //       changelife(-1);
-    //    }
-   // }
-
-
+    
 }
 

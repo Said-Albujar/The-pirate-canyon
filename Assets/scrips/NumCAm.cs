@@ -5,12 +5,10 @@ using UnityEngine;
 public class NumCAm : MonoBehaviour
 {
     public int enemigos=0;
-    public int suma;
-    public Enemy abc;
-    public GameObject adcn;
+    public int suma; 
     private void Start()
     {
-        abc = adcn.GetComponent<Enemy>();
+        
     }
     private void Update()
     {

@@ -17,8 +17,8 @@ public class MEnemigos : MonoBehaviour
     private void Conenemigos()
     {
         if(NumCam.enemigos ==1)
-        {          
-                Puerta.SetActive(false);         
+        {
+            Puerta.SetActive(false);         
         }
 
         if (NumCam.enemigos == 2)

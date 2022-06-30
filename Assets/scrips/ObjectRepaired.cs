@@ -24,12 +24,14 @@ public class ObjectRepaired : MonoBehaviour
     {
         if (Dentro && Input.GetKeyDown(KeyCode.E) && yes)
         {
-          
-            
-            
+
+
+            if (rep.a == rep.b)
+            {
                 rend.enabled = false;
-            rep.b = 0;
-            
+                rep.b = 0;
+                rep.a = 0;
+            }
         }
         
     }
@@ -40,21 +42,24 @@ public class ObjectRepaired : MonoBehaviour
             entro();
             if(player.gameObject.tag=="Player")
             {
-                rep.GetComponent<Repair>();
-                if(rep.a==rep.b)
-                {
+                
+                
                     yes = true;
                     
-                }
+                
             }
 
         }
     }
-    void OnTriggerExit(Collider player)
+    public void OnTriggerExit(Collider player)
     {
         if (player.gameObject.tag == "Player")
         {
             fuera();
+            if (player.gameObject.tag == "Player")
+            {
+                yes = false;
+            }
         }
     }
 

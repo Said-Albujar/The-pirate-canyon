@@ -8,7 +8,7 @@ public class Enemy : MonoBehaviour
     
     private void Start()
     {
-        puntos = GameObject.Find("Camara").GetComponent < NumCAm>();
+        puntos = GameObject.Find("Camara").GetComponent <NumCAm>();
     }
     private void OnCollisionEnter(Collision collision)
     {
