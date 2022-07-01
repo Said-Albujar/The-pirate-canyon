@@ -24,11 +24,11 @@ public class Healing : MonoBehaviour
     }
     public void OnCollisionEnter(Collision collision)
     {
-        if (a==-1)
+        if (collision.gameObject.CompareTag("Enemy"))
         {
             changelife(-1);
         }
-        if (a==1)
+        if (collision.gameObject.CompareTag("Botella"))
         {
             changelife(+1);
         }
