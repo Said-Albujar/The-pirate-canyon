@@ -22,7 +22,7 @@ public class enemigoMele : MonoBehaviour
 
     public void comportamientoenemigo()
     {
-        if (Vector3.Distance(transform.position, rango.transform.position) > 5)
+        if (Vector3.Distance(transform.position, rango.transform.position) > 10)
         {
             animacion.SetBool("correr", false);
             cronometro += 1 * Time.deltaTime;
