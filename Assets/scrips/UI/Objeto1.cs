@@ -13,8 +13,13 @@ public class Objeto1 : MonoBehaviour
     private void OnTriggerEnter(Collider player)
     {
         if (player.gameObject.tag == "Player")
+        {
             objeto1--;
-        gameObject.SetActive(false);
+            Reparacion.tomada1 = true;
+            gameObject.SetActive(false);
+
+        }
+           
     }
 }
 

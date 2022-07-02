@@ -21,7 +21,7 @@ public class EnemyDist : MonoBehaviour
     public bool playerInSightRange, playerInAttackRange;
     private void Awake()
     {
-        player = GameObject.Find("Player").transform;
+        player = GameObject.Find("perso").transform;
         Agent = GetComponent<NavMeshAgent>();
 
     }
