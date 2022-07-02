@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Objects : MonoBehaviour
 {
-  
 
+    public conteoobj1 objNum;
     public Renderer rend;
     BoxCollider coll;
     // Start is called before the first frame update
@@ -24,7 +24,8 @@ public class Objects : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
-        {  
+        {
+            objNum.a = objNum.a - 1;
             rend.enabled = false;
             coll.enabled = false;
         }

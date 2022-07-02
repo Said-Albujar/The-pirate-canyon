@@ -6,6 +6,7 @@ using UnityEngine.AI;
 public class EnemyDist : MonoBehaviour
 {
     public NavMeshAgent Agent;
+    
     public Transform player;
     public LayerMask whatIsGround, whatIsPlayer;
     //patrolling
@@ -13,6 +14,8 @@ public class EnemyDist : MonoBehaviour
     bool walkPointSet;
     public float walkPointRange;
     //attacking
+    public int ForceUP;
+    public int ForceForward;
     public float timeBetweenAttacks;
     bool alreadyAttacked;
     public GameObject proyectil;
@@ -71,8 +74,8 @@ public class EnemyDist : MonoBehaviour
         {
             //attack
             Rigidbody rb = Instantiate(proyectil, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
-            rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
-            rb.AddForce(transform.up * 8f, ForceMode.Impulse);
+            rb.AddForce(transform.forward * ForceForward, ForceMode.Impulse);
+            rb.AddForce(transform.up * ForceUP, ForceMode.Impulse);
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
         }

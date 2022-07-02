@@ -29,7 +29,7 @@ public class ObjectRepaired : MonoBehaviour
             if (rep.a == rep.b)
             {
                 rend.enabled = false;
-                rep.b = 0;
+                rep.b = rep.b-1;
                 rep.a = 0;
             }
         }
