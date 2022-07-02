@@ -7,8 +7,8 @@ PhysicMaterial:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: bala
-  dynamicFriction: 20
-  staticFriction: 70
+  dynamicFriction: 10.36
+  staticFriction: 5.4
   bounciness: 0
   frictionCombine: 0
   bounceCombine: 0
