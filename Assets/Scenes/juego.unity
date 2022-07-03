@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -16738,7 +16738,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 06457f973e9e6e44a82734fe1431fce1, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.012
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -16836,7 +16836,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   quesuena: {fileID: 714778990}
   sonido: {fileID: 8300000, guid: 06457f973e9e6e44a82734fe1431fce1, type: 3}
-  volumen: 0.5
+  volumen: 1
 --- !u!1001 &715113610
 PrefabInstance:
   m_ObjectHideFlags: 0
