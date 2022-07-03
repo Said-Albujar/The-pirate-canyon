@@ -32,6 +32,10 @@ public class Healing : MonoBehaviour
         {
             changelife(+1);
         }
+        if(collision.gameObject.CompareTag("BulletEnemy"))
+        {
+            changelife(-1);
+        }
     }
    
     public void changelife(int value)

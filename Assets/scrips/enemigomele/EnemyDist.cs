@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+
 public class EnemyDist : MonoBehaviour
 {
     public NavMeshAgent Agent;
@@ -63,6 +64,7 @@ public class EnemyDist : MonoBehaviour
     }
     private void chase()
     {
+        
         Agent.SetDestination(player.position);
     }
     private void AttackPlayer()

@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 8361073038192313655}
   - component: {fileID: 6843966372659694633}
   - component: {fileID: 7910998566601031822}
+  - component: {fileID: -7790875096470211161}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: BulletP
@@ -254,3 +255,17 @@ MonoBehaviour:
   needArrowIndicator: 1
   needDistanceText: 1
   indicator: {fileID: 0}
+--- !u!136 &-7790875096470211161
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3399865349565893464}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.6400676
+  m_Height: 1.2801352
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: -0.1400676}
