@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class bulletenemy : MonoBehaviour
+    
 {
-    void OnCollisionEnter(Collider player)
+    private void OnCollisionEnter(Collision other )
     {
-        if (player.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player")
         {
-            Destroy(player.gameObject);
+            Destroy(other.gameObject);
         }
     }
 }
