@@ -53,6 +53,12 @@ public class PlayerController : MonoBehaviour
         characterController.Move(moveInput * Time.deltaTime);
     }
 
-    
+    public void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "BulletEnemy")
+        {
+            Destroy(collision.gameObject);
+        }
+    }
 }
 
