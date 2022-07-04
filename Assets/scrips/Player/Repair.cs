@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Repair : MonoBehaviour
 {
     public int a=0;
-    public int b=0; 
+    public int b=0;
+    public int c = 4;
     void OnTriggerEnter(Collider other)
     {
         if (other.tag == "key")
@@ -26,5 +28,16 @@ public class Repair : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        Victoria();
+    }
+    public void Victoria()
+    {
+        if(c == 0)
+        {
+            SceneManager.LoadScene("Victoria");
+        }
+    }
 
 }

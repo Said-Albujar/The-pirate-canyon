@@ -31,6 +31,7 @@ public class ObjectRepaired : MonoBehaviour
                 rend.enabled = false;
                 rep.a = rep.a-1;
                 rep.b = 0;
+                RestaC();
             }
         }
         
@@ -80,5 +81,9 @@ public class ObjectRepaired : MonoBehaviour
         }
     }
 
+    public void RestaC()
+    {
+        rep.c = rep.c-1;    
+    }
 
 }
