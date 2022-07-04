@@ -16,6 +16,8 @@ public class EnemyDist : MonoBehaviour
     public float walkPointRange;
     //attacking
     public int ForceUP;
+    public Vector3 fireVector;
+    public GameObject Firepoint;
     public int ForceForward;
     public float timeBetweenAttacks;
     bool alreadyAttacked;
@@ -71,15 +73,19 @@ public class EnemyDist : MonoBehaviour
     {
         //make sure enemy doesn't move
         Agent.SetDestination(transform.position);
-        transform.LookAt(player);
-        if(!alreadyAttacked)
+        Vector3 newPlayer = player.position;
+        newPlayer.y = transform.position.y;
+        transform.LookAt(newPlayer);
+        if (!alreadyAttacked)
         {
             //attack
-            Rigidbody rb = Instantiate(proyectil, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
+            Rigidbody rb = Instantiate(proyectil, Firepoint.transform.position, Quaternion.identity).GetComponent<Rigidbody>();
+            
             rb.AddForce(transform.forward * ForceForward, ForceMode.Impulse);
             rb.AddForce(transform.up * ForceUP, ForceMode.Impulse);
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
+            
         }
     }
     private void ResetAttack()

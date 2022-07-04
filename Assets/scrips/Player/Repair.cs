@@ -10,7 +10,7 @@ public class Repair : MonoBehaviour
     {
         if (other.tag == "key")
         {
-            a = 1;
+            a = a+1;
         }
         if(other.tag== "Broke")
         {

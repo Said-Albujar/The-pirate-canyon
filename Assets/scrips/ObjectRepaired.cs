@@ -26,11 +26,11 @@ public class ObjectRepaired : MonoBehaviour
         {
 
 
-            if (rep.a == rep.b)
+            if (rep.a>0 && rep.b==1)
             {
                 rend.enabled = false;
-                rep.b = rep.b-1;
-                rep.a = 0;
+                rep.a = rep.a-1;
+                rep.b = 0;
             }
         }
         
