@@ -39,7 +39,7 @@ public class Healing : MonoBehaviour
             changelife(-1);
         }
     }
-   
+
     public void changelife(int value)
     {
         vidas += value;
