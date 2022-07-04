@@ -17,6 +17,7 @@ TagManager:
   - key
   - Broke
   - Botella
+  - BulletEnemy
   layers:
   - Default
   - TransparentFX
