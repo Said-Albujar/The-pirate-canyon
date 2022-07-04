@@ -31,8 +31,10 @@ public class Healing : MonoBehaviour
         if (collision.gameObject.CompareTag("Botella"))
         {
             changelife(+1);
+            Destroy(collision.gameObject);
+
         }
-        if(collision.gameObject.CompareTag("BulletEnemy"))
+        if (collision.gameObject.CompareTag("BulletEnemy"))
         {
             changelife(-1);
         }

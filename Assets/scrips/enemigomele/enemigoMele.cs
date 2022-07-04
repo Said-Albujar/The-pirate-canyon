@@ -12,7 +12,7 @@ public class enemigoMele : MonoBehaviour
 
     public GameObject rango;
     public bool atacando;
-    public GameObject arma;
+   // public GameObject arma;
     public RangoEnemigo enemi;
     void Start()
     {
@@ -26,7 +26,7 @@ public class enemigoMele : MonoBehaviour
         {
             animacion.SetBool("correr", false);
             cronometro += 1 * Time.deltaTime;
-            if (cronometro >= 4)
+            if (cronometro >= 2)
             {
                 rutina = Random.Range(0,2);
                 cronometro = 0;
