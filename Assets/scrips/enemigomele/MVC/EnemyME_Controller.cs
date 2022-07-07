@@ -66,4 +66,12 @@ public class EnemyME_Controller : MonoBehaviour
 
         }
     }
+    public void finalanimacion()
+    {
+        model.animacion.SetBool("ataque", false);
+        model.atacando = false;
+        model.enemi.GetComponent<CapsuleCollider>().enabled = true;
+        model.animacion.SetBool("ataque", true);
+
+    }
 }
