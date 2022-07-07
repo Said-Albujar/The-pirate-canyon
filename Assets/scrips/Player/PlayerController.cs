@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     public float runSpeed = 10f;
     public float jumpHeight = 1.9f;
     public float gravityScale = -20f;
-   
+    
     
   
 

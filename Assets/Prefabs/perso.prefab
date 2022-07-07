@@ -41,14 +41,14 @@ GameObject:
   - component: {fileID: 1360716831699873083}
   - component: {fileID: 1360716831699873082}
   - component: {fileID: 1360716831699873081}
-  - component: {fileID: 1360716831699873074}
+  - component: {fileID: 1360716831699873078}
   - component: {fileID: 1360716831699873080}
+  - component: {fileID: 1360716831699873079}
+  - component: {fileID: 1360716831699873074}
   - component: {fileID: 1360716831699873077}
   - component: {fileID: 1360716831699873076}
   - component: {fileID: 1360716831699873072}
   - component: {fileID: 1360716831699873073}
-  - component: {fileID: 1360716831699873079}
-  - component: {fileID: 1360716831699873078}
   - component: {fileID: 1360716831699873075}
   m_Layer: 6
   m_Name: perso
@@ -121,23 +121,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1360716831699873074
-MonoBehaviour:
+--- !u!136 &1360716831699873078
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1360716831699873087}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28dcee9b4bf77744ca372f62760b08c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  a: 0
-  vidas: 5
-  vidas_max: 5
-  vidas_standard: 5
-  Health_text: {fileID: 0}
+  m_Radius: 0.6301196
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: -0.13011983, y: 0, z: 5.3449994e-10}
 --- !u!143 &1360716831699873080
 CharacterController:
   m_ObjectHideFlags: 0
@@ -156,6 +153,39 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1360716831699873079
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360716831699873087}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 2
+--- !u!114 &1360716831699873074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360716831699873087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28dcee9b4bf77744ca372f62760b08c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  a: 0
+  vidas: 5
+  vidas_max: 5
+  vidas_standard: 5
+  Health_text: {fileID: 0}
 --- !u!114 &1360716831699873077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -212,36 +242,6 @@ MonoBehaviour:
   a: 0
   b: 0
   c: 4
---- !u!54 &1360716831699873079
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1360716831699873087}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 2
---- !u!136 &1360716831699873078
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1360716831699873087}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.6301196
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: -0.13011983, y: 0, z: 5.3449994e-10}
 --- !u!114 &1360716831699873075
 MonoBehaviour:
   m_ObjectHideFlags: 0
