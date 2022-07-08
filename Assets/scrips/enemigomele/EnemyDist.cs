@@ -16,7 +16,6 @@ public class EnemyDist : MonoBehaviour
     public float walkPointRange;
     //attacking
     public int ForceUP;
-    public Vector3 fireVector;
     public GameObject Firepoint;
     public int ForceForward;
     public float timeBetweenAttacks;
