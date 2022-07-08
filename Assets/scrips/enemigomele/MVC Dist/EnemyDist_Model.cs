@@ -27,7 +27,7 @@ public class EnemyDist_Model : MonoBehaviour
     public bool playerInSightRange, playerInAttackRange;
 
     // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
         player = GameObject.Find("perso").transform;
         Agent = GetComponent<NavMeshAgent>();

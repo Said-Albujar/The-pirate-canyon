@@ -74,4 +74,8 @@ public class EnemyME_Controller : MonoBehaviour
         model.animacion.SetBool("ataque", true);
 
     }
+    void Update()
+    {
+        comportamientoenemigo();
+    }
 }
