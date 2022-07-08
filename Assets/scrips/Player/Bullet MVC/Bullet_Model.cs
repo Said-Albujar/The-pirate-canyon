@@ -11,7 +11,7 @@ public class Bullet_Model : MonoBehaviour
     public float shootForce = 1500f;
     public float shootRate = 0.5f;
 
-    private float shootRateTime = 0;
+    public float shootRateTime = 0;
 
    
 }

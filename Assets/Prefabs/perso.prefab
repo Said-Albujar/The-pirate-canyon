@@ -44,12 +44,13 @@ GameObject:
   - component: {fileID: 1360716831699873078}
   - component: {fileID: 1360716831699873080}
   - component: {fileID: 1360716831699873079}
-  - component: {fileID: 1360716831699873074}
   - component: {fileID: 1360716831699873077}
-  - component: {fileID: 1360716831699873076}
   - component: {fileID: 1360716831699873072}
   - component: {fileID: 1360716831699873073}
   - component: {fileID: 1360716831699873075}
+  - component: {fileID: 2134830153551602144}
+  - component: {fileID: 4205888481549280224}
+  - component: {fileID: 6169104528054638544}
   m_Layer: 6
   m_Name: perso
   m_TagString: Player
@@ -169,23 +170,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 2
---- !u!114 &1360716831699873074
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1360716831699873087}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28dcee9b4bf77744ca372f62760b08c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  a: 0
-  vidas: 5
-  vidas_max: 5
-  vidas_standard: 5
-  Health_text: {fileID: 0}
 --- !u!114 &1360716831699873077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -199,22 +183,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensibilidad: {x: 2, y: 2}
---- !u!114 &1360716831699873076
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1360716831699873087}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 832210d946e93a744ac78c526054338d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  walkSpeed: 7
-  runSpeed: 15
-  jumpHeight: 1.5
-  gravityScale: -20
 --- !u!114 &1360716831699873072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -256,6 +224,50 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 4
   scoreText: {fileID: 0}
+--- !u!114 &2134830153551602144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360716831699873087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0908356f730878f43903b01c006c7ac5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4205888481549280224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360716831699873087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a04f4820a6ca996459fd5ee5d2a46a1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkSpeed: 5
+  runSpeed: 10
+  jumpHeight: 1.9
+  gravityScale: -20
+  vidas: 5
+  vidas_max: 5
+  vidas_standard: 5
+--- !u!114 &6169104528054638544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360716831699873087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98bfd8fa9493c394d936d4c58a40dfc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health_text: {fileID: 0}
 --- !u!1 &1360716832180203453
 GameObject:
   m_ObjectHideFlags: 0

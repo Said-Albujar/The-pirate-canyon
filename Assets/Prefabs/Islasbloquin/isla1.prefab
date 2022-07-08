@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2927935633126938159
 Transform:
@@ -84,12 +84,12 @@ GameObject:
   - component: {fileID: 3163336625893398341}
   - component: {fileID: 9083979662915675892}
   - component: {fileID: 4785049391279632359}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &6037929411204330053
 Transform:
@@ -517,12 +517,12 @@ GameObject:
   - component: {fileID: 844422879805590192}
   - component: {fileID: 6296764421336515953}
   - component: {fileID: 2046438253214102089}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: isla1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &22192474070065380
 Transform:
@@ -532,12 +532,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8583251315268791140}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -33, y: -30, z: -52}
+  m_LocalPosition: {x: -33, y: 12.7, z: -52}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6037929411204330053}
   - {fileID: 2927935633126938159}
-  - {fileID: 1630004190402660099}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2355,6 +2354,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Palmera 03 (Modelado) 1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4805850678570757995, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805850678570757995, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5330607289662961105, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
       propertyPath: m_RootOrder
       value: 32
@@ -2428,6 +2435,14 @@ PrefabInstance:
     - target: {fileID: 4805850678570757995, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
       propertyPath: m_Name
       value: Palmera 03 (Modelado) 1 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805850678570757995, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805850678570757995, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5330607289662961105, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
       propertyPath: m_RootOrder
@@ -2559,6 +2574,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Palmera 02 (Modelado) (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
 --- !u!4 &8738285191363707531 stripped
@@ -2633,86 +2656,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Palmera 02 (Modelado) (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
 --- !u!4 &8762968411772696771 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8105925113873685729, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
   m_PrefabInstance: {fileID: 712226962276738082}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &743193613363923997
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 22192474070065380}
-    m_Modifications:
-    - target: {fileID: 1694895142932861348, guid: 0d13f98110f042248ba060b038fc48cd, type: 3}
-      propertyPath: m_Name
-      value: 14052_Pirate_Shipmate_Muscular_v1_L3@Zombie Idle (1) Variant
-      objectReference: {fileID: 0}
-    - target: {fileID: 2075783994736904990, guid: 0d13f98110f042248ba060b038fc48cd, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2075783994736904990, guid: 0d13f98110f042248ba060b038fc48cd, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 24.405806
-      objectReference: {fileID: 0}
-    - target: {fileID: 2075783994736904990, guid: 0d13f98110f042248ba060b038fc48cd, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 24.405806
-      objectReference: {fileID: 0}
-    - target: {fileID: 2075783994736904990, guid: 0d13f98110f042248ba060b038fc48cd, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 24.405806
-      objectReference: {fileID: 0}
-    - target: {fileID: 2075783994736904990, guid: 0d13f98110f042248ba060b038fc48cd, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 13.059
-      objectReference: {fileID: 0}
-    - target: {fileID: 2075783994736904990, guid: 0d13f98110f042248ba060b038fc48cd, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 13.45
-      objectReference: {fileID: 0}
-    - target: {fileID: 2075783994736904990, guid: 0d13f98110f042248ba060b038fc48cd, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -27.975
-      objectReference: {fileID: 0}
-    - target: {fileID: 2075783994736904990, guid: 0d13f98110f042248ba060b038fc48cd, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2075783994736904990, guid: 0d13f98110f042248ba060b038fc48cd, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2075783994736904990, guid: 0d13f98110f042248ba060b038fc48cd, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2075783994736904990, guid: 0d13f98110f042248ba060b038fc48cd, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2075783994736904990, guid: 0d13f98110f042248ba060b038fc48cd, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2075783994736904990, guid: 0d13f98110f042248ba060b038fc48cd, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2075783994736904990, guid: 0d13f98110f042248ba060b038fc48cd, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0d13f98110f042248ba060b038fc48cd, type: 3}
---- !u!4 &1630004190402660099 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2075783994736904990, guid: 0d13f98110f042248ba060b038fc48cd, type: 3}
-  m_PrefabInstance: {fileID: 743193613363923997}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &902917034931850726
 PrefabInstance:
@@ -2780,6 +2737,14 @@ PrefabInstance:
     - target: {fileID: 2175563962793375503, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
       propertyPath: m_Name
       value: Palmera 01 (Modelado) (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175563962793375503, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175563962793375503, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
@@ -2855,6 +2820,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Palmera 01 (Modelado) (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2175563962793375503, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175563962793375503, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
 --- !u!4 &494336337996859679 stripped
@@ -2928,6 +2901,14 @@ PrefabInstance:
     - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
       propertyPath: m_Name
       value: Palmera 02 (Modelado) (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
@@ -3003,6 +2984,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Palmera 02 (Modelado) (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
 --- !u!4 &7288591420699272795 stripped
@@ -3076,6 +3065,14 @@ PrefabInstance:
     - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
       propertyPath: m_Name
       value: Palmera 02 (Modelado)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
@@ -3151,6 +3148,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Palmera 02 (Modelado) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
 --- !u!4 &7909684161361629979 stripped
@@ -3225,6 +3230,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Palmera 01 (Modelado) (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 2175563962793375503, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175563962793375503, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
 --- !u!4 &3863864576023622886 stripped
@@ -3242,6 +3255,14 @@ PrefabInstance:
     - target: {fileID: 4805850678570757995, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
       propertyPath: m_Name
       value: Palmera 03 (Modelado) 1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805850678570757995, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805850678570757995, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5330607289662961105, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
       propertyPath: m_RootOrder
@@ -3373,6 +3394,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Palmera 01 (Modelado) (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2175563962793375503, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175563962793375503, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
 --- !u!4 &3563496932316893971 stripped
@@ -3446,6 +3475,14 @@ PrefabInstance:
     - target: {fileID: 2175563962793375503, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
       propertyPath: m_Name
       value: Palmera 01 (Modelado) (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175563962793375503, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175563962793375503, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
@@ -3521,6 +3558,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Palmera 01 (Modelado) (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 2175563962793375503, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175563962793375503, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
 --- !u!4 &2658642416075464647 stripped
@@ -3594,6 +3639,14 @@ PrefabInstance:
     - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
       propertyPath: m_Name
       value: Palmera 02 (Modelado) (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
@@ -3669,6 +3722,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Palmera 02 (Modelado) (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
 --- !u!4 &5549160332859401714 stripped
@@ -3686,6 +3747,14 @@ PrefabInstance:
     - target: {fileID: 4805850678570757995, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
       propertyPath: m_Name
       value: Palmera 03 (Modelado) 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805850678570757995, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805850678570757995, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5330607289662961105, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
       propertyPath: m_RootOrder
@@ -3817,6 +3886,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Palmera 01 (Modelado) (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 2175563962793375503, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175563962793375503, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
 --- !u!4 &6171546507361140817 stripped
@@ -3890,6 +3967,14 @@ PrefabInstance:
     - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
       propertyPath: m_Name
       value: Palmera 02 (Modelado) (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
@@ -3965,6 +4050,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Palmera 01 (Modelado) (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2175563962793375503, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175563962793375503, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
 --- !u!4 &6907283793242082009 stripped
@@ -4038,6 +4131,14 @@ PrefabInstance:
     - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
       propertyPath: m_Name
       value: Palmera 02 (Modelado) (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
@@ -4113,6 +4214,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Palmera 02 (Modelado) (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
 --- !u!4 &2320615954307191924 stripped
@@ -4130,6 +4239,14 @@ PrefabInstance:
     - target: {fileID: 4805850678570757995, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
       propertyPath: m_Name
       value: Palmera 03 (Modelado) 1 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805850678570757995, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805850678570757995, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5330607289662961105, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
       propertyPath: m_RootOrder
@@ -4261,6 +4378,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Palmera 01 (Modelado) (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2175563962793375503, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175563962793375503, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
 --- !u!4 &5748300235706275822 stripped
@@ -4335,6 +4460,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Palmera 01 (Modelado) (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2175563962793375503, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175563962793375503, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
 --- !u!4 &5681534089807032219 stripped
@@ -4352,6 +4485,14 @@ PrefabInstance:
     - target: {fileID: 4805850678570757995, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
       propertyPath: m_Name
       value: Palmera 03 (Modelado) 1 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805850678570757995, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805850678570757995, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5330607289662961105, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
       propertyPath: m_RootOrder
@@ -4427,6 +4568,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Palmera 03 (Modelado) 1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4805850678570757995, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805850678570757995, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5330607289662961105, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
       propertyPath: m_RootOrder
       value: 33
@@ -4500,6 +4649,14 @@ PrefabInstance:
     - target: {fileID: 4805850678570757995, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
       propertyPath: m_Name
       value: Palmera 03 (Modelado) 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805850678570757995, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805850678570757995, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5330607289662961105, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
       propertyPath: m_RootOrder
@@ -4631,6 +4788,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Palmera 02 (Modelado) (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
 --- !u!4 &3399400534386812234 stripped
@@ -4705,6 +4870,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Palmera 02 (Modelado) (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
 --- !u!4 &1260449664017972125 stripped
@@ -4722,6 +4895,14 @@ PrefabInstance:
     - target: {fileID: 4805850678570757995, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
       propertyPath: m_Name
       value: Palmera 03 (Modelado) 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805850678570757995, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805850678570757995, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5330607289662961105, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
       propertyPath: m_RootOrder
@@ -4853,6 +5034,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Palmera 02 (Modelado) (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
 --- !u!4 &2129557319738165041 stripped
@@ -4926,6 +5115,14 @@ PrefabInstance:
     - target: {fileID: 2175563962793375503, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
       propertyPath: m_Name
       value: Palmera 01 (Modelado)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175563962793375503, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175563962793375503, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
@@ -5001,6 +5198,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Palmera 01 (Modelado) (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 2175563962793375503, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175563962793375503, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
 --- !u!4 &7240269463744856566 stripped
@@ -5075,6 +5280,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Palmera 02 (Modelado) (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
 --- !u!4 &82061126432573194 stripped
@@ -5092,6 +5305,14 @@ PrefabInstance:
     - target: {fileID: 4805850678570757995, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
       propertyPath: m_Name
       value: Palmera 03 (Modelado) 1 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805850678570757995, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805850678570757995, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5330607289662961105, guid: bd5d04076b8e4ed439554ee6086b1581, type: 3}
       propertyPath: m_RootOrder
@@ -5223,6 +5444,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Palmera 01 (Modelado) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2175563962793375503, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175563962793375503, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
 --- !u!4 &6995357648084325031 stripped
@@ -5296,6 +5525,14 @@ PrefabInstance:
     - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
       propertyPath: m_Name
       value: Palmera 02 (Modelado) (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
@@ -5371,6 +5608,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Palmera 01 (Modelado) (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2175563962793375503, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175563962793375503, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26db712a2a9f4dd459c04f43f8bd73c1, type: 3}
 --- !u!4 &7817509031769538158 stripped
@@ -5444,6 +5689,14 @@ PrefabInstance:
     - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
       propertyPath: m_Name
       value: Palmera 02 (Modelado) (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8878239035784136283, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 182240c27b32dbe45a58301e4fd83324, type: 3}
