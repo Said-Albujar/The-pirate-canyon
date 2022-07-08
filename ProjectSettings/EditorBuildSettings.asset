@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/controles.unity
     guid: 3f8e33b072a5bf84799ed9955fcafec1
   - enabled: 1
+    path: Assets/Scenes/Procedural.unity
+    guid: f8dd67adf13809d4d8506f3d759c46a2
+  - enabled: 1
     path: Assets/Scenes/Victoria.unity
     guid: 7afe9f539b559e54db29aa95b60a8a36
   m_configObjects: {}

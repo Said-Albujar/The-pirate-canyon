@@ -721,6 +721,9 @@ GameObject:
   - component: {fileID: 474115152644573673}
   - component: {fileID: 474115153483443955}
   - component: {fileID: 474115152644573676}
+  - component: {fileID: 1544290498344518758}
+  - component: {fileID: 6279011027977181234}
+  - component: {fileID: 1832682551086494286}
   m_Layer: 0
   m_Name: UD_demo_character 1
   m_TagString: Enemy
@@ -814,7 +817,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 474115152644573674}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6af75a63438a4134fb4f2e9b98ba7c9a, type: 3}
   m_Name: 
@@ -827,7 +830,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 474115152644573674}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aa0d958a0b949c741b27e6338e2d5a9c, type: 3}
   m_Name: 
@@ -839,8 +842,53 @@ MonoBehaviour:
   grados: 0
   rango: {fileID: 474115152644573674}
   atacando: 0
-  arma: {fileID: 0}
   enemi: {fileID: 474115152308750068}
+--- !u!114 &1544290498344518758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474115152644573674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c43294323e0943f40ac478735f4af075, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6279011027977181234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474115152644573674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90e4001f9d1ac4f4e92f7564c9b6fb74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rutina: 0
+  cronometro: 0
+  animacion: {fileID: 474115152654105182}
+  angulos: {x: 0.034899503, y: 0, z: 0, w: 0.99939084}
+  grados: 0
+  rango: {fileID: 474115152644573674}
+  atacando: 0
+  enemi: {fileID: 474115152308750068}
+--- !u!114 &1832682551086494286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474115152644573674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eba8f3609a854464ab4362fb6957979a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  model: {fileID: 6279011027977181234}
+  view: {fileID: 1544290498344518758}
 --- !u!1 &474115152644573678
 GameObject:
   m_ObjectHideFlags: 0

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3899368171351425886}
   - component: {fileID: 3250942252397257353}
   - component: {fileID: 3250942252397257354}
+  - component: {fileID: 2045043550393041627}
   m_Layer: 0
   m_Name: Cofre_Modelo
   m_TagString: key
@@ -95,6 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d2d79e96e0a8b9459ff583ba6054669, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Target: {fileID: 0}
   rend: {fileID: 3899368171351425886}
 --- !u!65 &3250942252397257354
 BoxCollider:
@@ -109,3 +111,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.0381165, y: 2.757787, z: 4.405982}
   m_Center: {x: -0.16183758, y: 1.3788935, z: 3.0144598e-10}
+--- !u!114 &2045043550393041627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3250942252397257355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 411060de4483b5e4c9847cd3cbc18554, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetColor: {r: 1, g: 0, b: 0, a: 1}
+  needBoxIndicator: 1
+  needArrowIndicator: 1
+  needDistanceText: 1
+  indicator: {fileID: 0}
