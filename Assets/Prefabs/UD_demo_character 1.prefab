@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animacion: {fileID: 474115152654105182}
-  enemigo: {fileID: 474115152644573676}
+  enemigo: {fileID: 0}
 --- !u!1 &474115152644573568
 GameObject:
   m_ObjectHideFlags: 0
@@ -718,9 +718,6 @@ GameObject:
   - component: {fileID: 474115152654105182}
   - component: {fileID: 474115153483443953}
   - component: {fileID: 474115153483443952}
-  - component: {fileID: 474115152644573673}
-  - component: {fileID: 474115153483443955}
-  - component: {fileID: 474115152644573676}
   - component: {fileID: 1544290498344518758}
   - component: {fileID: 6279011027977181234}
   - component: {fileID: 1832682551086494286}
@@ -796,53 +793,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.8576037, y: 1.409821, z: 0.5521697}
   m_Center: {x: -0.0062147453, y: 0.68184936, z: -0.09828454}
---- !u!114 &474115152644573673
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 474115152644573674}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8db39080f5133ec4eae4097d14c7fbfb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  heal: {fileID: 0}
-  Ha: 1
---- !u!114 &474115153483443955
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 474115152644573674}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6af75a63438a4134fb4f2e9b98ba7c9a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  puntos: {fileID: 0}
---- !u!114 &474115152644573676
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 474115152644573674}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa0d958a0b949c741b27e6338e2d5a9c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rutina: 0
-  cronometro: 0
-  animacion: {fileID: 474115152654105182}
-  angulos: {x: 0.03607423, y: 0.033639755, z: 0.033639755, w: 0.9982161}
-  grados: 0
-  rango: {fileID: 474115152644573674}
-  atacando: 0
-  enemi: {fileID: 474115152308750068}
 --- !u!114 &1544290498344518758
 MonoBehaviour:
   m_ObjectHideFlags: 0
