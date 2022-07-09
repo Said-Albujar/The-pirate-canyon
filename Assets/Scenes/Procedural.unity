@@ -7172,15 +7172,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1360716831699873078, guid: ebe8ec3401458884eb1ef458ec53c04c, type: 3}
       propertyPath: m_Radius
-      value: 0.53937995
+      value: 0.69
       objectReference: {fileID: 0}
     - target: {fileID: 1360716831699873078, guid: ebe8ec3401458884eb1ef458ec53c04c, type: 3}
       propertyPath: m_Center.x
-      value: -0.13012005
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1360716831699873078, guid: ebe8ec3401458884eb1ef458ec53c04c, type: 3}
       propertyPath: m_Center.z
-      value: -0.09073959
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1360716831699873083, guid: ebe8ec3401458884eb1ef458ec53c04c, type: 3}
       propertyPath: m_RootOrder
@@ -7257,6 +7257,14 @@ PrefabInstance:
     - target: {fileID: 1542629943976935024, guid: ebe8ec3401458884eb1ef458ec53c04c, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.837
+      objectReference: {fileID: 0}
+    - target: {fileID: 4205888481549280224, guid: ebe8ec3401458884eb1ef458ec53c04c, type: 3}
+      propertyPath: runSpeed
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4205888481549280224, guid: ebe8ec3401458884eb1ef458ec53c04c, type: 3}
+      propertyPath: walkSpeed
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6169104528054638544, guid: ebe8ec3401458884eb1ef458ec53c04c, type: 3}
       propertyPath: Health_text
