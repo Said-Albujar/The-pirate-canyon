@@ -13,6 +13,7 @@ public class PlayerControler : MonoBehaviour
     void Start()
     {
         playerModel = GetComponent<PlayerModel>();
+        View = GetComponent<PlayerView>();
     }
     private void Awake()
     {
@@ -57,6 +58,7 @@ public class PlayerControler : MonoBehaviour
         if (collision.gameObject.CompareTag("BulletEnemy"))
         {
             View.changelife(-1);
+            Destroy(collision.gameObject);
         }
     }
 }

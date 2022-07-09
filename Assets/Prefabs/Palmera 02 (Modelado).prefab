@@ -12,12 +12,12 @@ GameObject:
   - component: {fileID: 5175159772811678532}
   - component: {fileID: 6932494673684735886}
   - component: {fileID: 8643743096873859852}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Palmera 02 (Modelado)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &8105925113873685729
 Transform:

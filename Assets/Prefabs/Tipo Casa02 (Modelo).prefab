@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 6020185368679501257}
   - component: {fileID: 7215933352525316716}
   - component: {fileID: 4882133369753351846}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tipo Casa02 (Modelo)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &6020185368679501257
 Transform:
