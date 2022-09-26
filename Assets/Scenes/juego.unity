@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -35361,7 +35361,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 21159135, guid: 0d13f98110f042248ba060b038fc48cd, type: 3}
       propertyPath: walkPointRange
-      value: 4.08
+      value: 4.17
       objectReference: {fileID: 0}
     - target: {fileID: 21159136, guid: 0d13f98110f042248ba060b038fc48cd, type: 3}
       propertyPath: m_Speed
